@@ -11,11 +11,11 @@
 	ini_set( "display_errors", 1 ); // Change to "0" on the real server
 	
 	define('BASE_DOMAIN', 'daddydaycare.loc');
-	define('BASE_INCLUDE', '/home/ddc/includes/');
+	define('BASE_INCLUDE', 'C:\\xampp\\htdocs\\daycare\\public_html\\');
 	define('BASE_URI', 'http://daddydaycare.loc/');
-	define('ROOT', '/ddc/');
-	define('BASEPATH', "/home/ddc/");
-	define('BASE_CLIENT', BASEPATH . "public_html/");
+	define('ROOT', '\\daycare\\');
+	define('BASEPATH', "C:\\xampp\\htdocs\\daycare\\");
+	define('BASE_CLIENT', BASEPATH . "public_html\\");
 	
 	
 	# USED FOR AJAX REQUESTS
